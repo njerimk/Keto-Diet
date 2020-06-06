@@ -1,0 +1,102 @@
+.sm-links {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .navigation {
+    background-color: tan;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: inline-flex;
+  }
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: tan;
+    display: inline-flex;
+    margin-left: 550px;
+    margin-top: 10px;
+    padding: 0px;
+    font-family: "Bebas Neue", cursive;
+    font-size: 16px;
+  }
+  li {
+    float: left;
+  }
+  li a,
+  .dropdown-btn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  li a:hover,
+  .dropdown-menu:hover .dropdown {
+    background-color: tan;
+    color: white;
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  .dropdown-menu div {
+    display: none;
+    position: absolute;
+    background-color: tan;
+    min-width: 160px;
+    box-shadow: 0px 8px 10px 0px;
+  }
+  .dropdown-menu a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-menua:hover {
+    background-color: tan;
+    color: black;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  .foodsToAvoid-page,
+  .mainPoints {
+    display: grid;
+    grid-column-gap: 1px;
+    grid-row-gap: 5px;
+    margin-left: 25px;
+  }
+  .title-text {
+    font-family: "Bebas Neue", cursive;
+    font-size: 80px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-bottom: -10px;
+    display: inline-block;
+  }
+  .article-text,
+  .mainPoints,
+  .badFood {
+    position: inherit;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 75px;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+  }
+  .foodList {
+    position: inherit;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    margin-right: 75px;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+  }
