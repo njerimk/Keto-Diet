@@ -140,6 +140,7 @@ li.dropdown {
     grid-auto-rows:  minmax(100px,auto);
     margin-right: 25px;
     z-index: 2;
+    margin-bottom: 100px;
 
 }
 
