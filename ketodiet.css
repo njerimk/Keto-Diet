@@ -163,7 +163,7 @@ li.dropdown {
     grid-column: 2;
     grid-column: 2/4;
     grid-row: 3/4;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     z-index: 2;
 }
 
