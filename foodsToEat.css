@@ -1,0 +1,187 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+.sm-links {
+  margin-top: 20px;
+  z-index: 4;
+  margin-left: 20px;
+}
+.navigation {
+  background-color: tan;
+  margin: auto 0px;
+  display: inline-flex;
+  z-index: 4;
+  position: fixed;
+  width: 100%;
+}
+.navigation > ul {
+  flex-direction: column;
+}
+.navbar {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: tan;
+  display: inline-flex;
+  font-family: "Bebas Neue", cursive;
+  font-size: 18px;
+  position: inline-block;
+  z-index: 1;
+  margin-left: 450px;
+  margin-right: 20px;
+}
+li {
+  float: left;
+}
+li a,
+.dropdown-btn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+li a:hover,
+.dropdown-menu:hover .dropdown {
+  background-color: tan;
+  color: white;
+}
+li.dropdown {
+  display: inline-block;
+}
+.dropdown-menu div {
+  display: none;
+  position: absolute;
+  background-color: tan;
+  min-width: 160px;
+  box-shadow: 0px 8px 10px 0px;
+}
+.dropdown-menu a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-menua:hover {
+  background-color: tan;
+  color: black;
+}
+.main-page {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 5px;
+  margin-left: 25px;
+  z-index: 1;
+  margin-bottom: 200px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.foodsToEat-page,
+.mainPoints,
+.lowCarb,
+.meat,
+.eggs,
+.seafood,
+.nuts,
+.berries,
+.olives,
+.chocolate {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 5px;
+  margin-left: 25px;
+}
+.lowCarb,
+.meat,
+.eggs,
+.seafood,
+.nuts,
+.berries,
+.olives,
+.chocolate {
+  padding-right: 10%;
+}
+.title-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-bottom: -10px;
+  margin-top: 150px;
+  display: inline-block;
+  z-index: 1;
+}
+.veg-img,
+.meat-img,
+.eggs-img,
+.seafood-img,
+.nuts-img,
+.berries-img,
+.olives-img,
+.chocolate-img {
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-right: 100px;
+  display: inline-flex;
+  position: inherit;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  width: 350px;
+  height: 250px;
+}
+.article-text,
+.mainPoints,
+.goodFood,
+.lowCarb,
+.meat,
+.eggs,
+.seafood,
+.nuts,
+.berries,
+.olives,
+.chocolate {
+  position: inherit;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-right: 75px;
+  margin-top: 75px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  z-index: 2;
+}
+.header-img {
+  margin-left: 50px;
+  margin-top: 150px;
+  margin-right: 50px;
+  margin-bottom: -100px;
+  display: inline-flex;
+  position: inherit;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+.foodList {
+  position: inherit;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-right: 75px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  font-size: 60px;
+  color: gray;
+  font-family: "Bebas Neue", cursive;
+  z-index: 4;
+}
