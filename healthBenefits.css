@@ -15,6 +15,7 @@ body {
   position: fixed;
   width: 100%;
 }
+
 .navigation > ul {
   flex-direction: column;
 }
@@ -23,13 +24,14 @@ body {
   overflow: hidden;
   background-color: tan;
   display: inline-flex;
-  font-family: "Bebas Neue", cursive;
+  font-family: 'Bebas Neue', cursive;
   font-size: 18px;
   position: inline-block;
   z-index: 1;
   margin-left: 450px;
   margin-right: 20px;
 }
+
 li {
   float: left;
 }
