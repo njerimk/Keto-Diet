@@ -1,4 +1,3 @@
-
 body{
     width:100%;
     margin: 0 auto;
@@ -87,46 +86,38 @@ li.dropdown {
 .dropdown:hover  .dropdown-menu {
     display: block;
 }
-
-  .main-page {
-    display: grid;
-    grid-column-gap: 1px;
-    grid-row-gap: 5px;
-    margin-left: 25px;
-    z-index: 1;
-    margin-bottom: 200px;
+.dropdown:hover .dropdown-menu {
+  display: block;
 }
-  
-  .recipes-page,
-  .mainPoints {
-    display: grid;
-    grid-column-gap: 1px;
-    grid-row-gap: 5px;
-    margin-left: 25px;
-  }
-  .title-text {
-    font-family: "Bebas Neue", cursive;
-    font-size: 80px;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin-bottom: -10px;
-    margin-top: 150px;
-    display: inline-block;
-    z-index: 1;
-  }
-  .article-text,
-  .planInfo {
-    position: inherit;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin-right: 75px;
-    margin-top: 75px;
-    display: inline-block;
-    font-family: "Open Sans", sans-serif;
-    z-index: 2;
-  }
-  
+.recipes-page,
+.mainPoints {
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 5px;
+  margin-left: 25px;
+}
+.title-text {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-bottom: -10px;
+  margin-top: 150px;
+  display: inline-block;
+  z-index: 1;
+}
+.article-text,
+.planInfo {
+  position: inherit;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  margin-right: 75px;
+  margin-top: 75px;
+  display: inline-block;
+  font-family: "Open Sans", sans-serif;
+  z-index: 2;
+}
