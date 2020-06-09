@@ -28,7 +28,7 @@ body{
 
 }
 
-ul {
+.navbar {
     list-style-type: none;
     overflow: hidden;
     background-color: tan;
