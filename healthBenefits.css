@@ -116,6 +116,8 @@ li.dropdown {
   grid-column-gap: 1px;
   grid-row-gap: 5px;
   margin-left: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
 }
 
 .title-text {
