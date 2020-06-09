@@ -91,6 +91,7 @@ li.dropdown {
 .dropdown:hover .dropdown-menu {
   display: block;
 }
+
 .foodsToAvoid-page,
 .mainPoints,
 h3 {
