@@ -4,6 +4,10 @@ body{
   margin: 0 auto;
 }
 
+#landing-img{
+  margin-top: 80px;
+}
+
 .sm-links {
   margin-top: 20px;
   z-index: 4;
