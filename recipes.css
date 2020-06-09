@@ -87,7 +87,7 @@ li.dropdown {
 .dropdown:hover  .dropdown-menu {
     display: block;
 }
-  }
+  
   .recipes-page,
   .mainPoints {
     display: grid;
